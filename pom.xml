@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.brainlag</groupId>
+  <groupId>com.vsct.dt</groupId>
   <artifactId>nsq-client</artifactId>
-  <version>1.0.0.RC2</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <name>JavaNSQClient</name>
   <description>Fast Java client for NSQ.</description>
-  <url>https://github.com/brainlag/JavaNSQClient</url>
+  <url>https://github.com/voyages-sncf-technologies/JavaNSQClient</url>
   <licenses>
     <license>
       <name>MIT License</name>
@@ -49,7 +49,7 @@
       <extension>
         <groupId>kr.motd.maven</groupId>
         <artifactId>os-maven-plugin</artifactId>
-        <version>1.2.3.Final</version>
+        <version>1.4.0.Final</version>
       </extension>
     </extensions>
   </build>
@@ -128,15 +128,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-api</artifactId>
-      <version>2.5</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.logging.log4j</groupId>
-      <artifactId>log4j-core</artifactId>
-      <version>2.5</version>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
     </dependency>
 
     <dependency>
