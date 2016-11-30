@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.vsct.dt</groupId>
+  <groupId>fr.vsct.dt</groupId>
   <artifactId>nsq-client</artifactId>
   <version>1.0.0</version>
 
@@ -19,13 +19,13 @@
   </licenses>
   <developers>
     <developer>
-      <name>Peter Nimmervoll</name>
-      <email>nimmervoll.peter@gmail.com</email>
+      <name>Guillaume ARNAUD</name>
+      <email>garnaud25@gmail.com</email>
     </developer>
   </developers>
   <scm>
     <connection>scm:git:git@github.com:voyages-sncf-technologies/JavaNSQClient.git</connection>
-    <developerConnection>scm:git:git@github.com:brainlag/JavaNSQClient.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:voyages-sncf-technologies/JavaNSQClient.git</developerConnection>
     <url>git@github.com:voyages-sncf-technologies/JavaNSQClient.git</url>
   </scm>
 
@@ -139,9 +139,9 @@
 
   <distributionManagement>
     <snapshotRepository>
-      <id>dt-snapshots</id>
-      <name>DT Snapshots</name>
-      <url>http://nexus/content/repositories/dt-snapshots/</url>
+      <id>sontatype-snapshots</id>
+      <name>Sonatype Snapshots</name>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
       <id>dt-releases</id>
